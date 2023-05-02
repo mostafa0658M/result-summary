@@ -30,7 +30,8 @@ export default function ResultSummary({ summary }) {
           ))}
         </div>
         <a href="#" className="continue-button">
-          Continue
+          <div className="before"></div>
+          <span>Continue</span>
         </a>
       </div>
     </div>
